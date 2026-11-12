@@ -1,33 +1,62 @@
-# Focus Coach
+<div align="center">
 
-A hackathon prototype for helping people recognize distraction and return to a task through supportive nudges, focus sessions, summaries, and wellness breaks.
+# 🎯 Focus Coach
 
-**Winner, UA Little Rock's 2025 AI and Mental Health Hackathon — $2,100 team award.** The organizer's June 18, 2025 email specified five $420 checks. This was a team competition prize, not app revenue.
+**Stay present. We've got your back.**
 
-**Source recovery is pending.** This repository currently documents the project; it does not yet contain the app or browser-extension source. The old v0 preview link is no longer available. The latest source has been requested from Yogesh Pandit before a runnable version can be uploaded and verified.
+A focus-support prototype that brings task timers, supportive feedback, and wellness breaks into one calm workspace.
 
-## What we set out to build
+**[Try the live demo](https://v0-new-project-emcec5fbckx.vercel.app/)** · **[Demo walkthrough](docs/DEMO_GUIDE.md)** · **[Project story](docs/PROJECT_NOTES.md)**
 
-- Browser-based distraction awareness and a focus score.
-- Gentle, personalized prompts to return to the task.
-- Focus-session timers and restorative breaks.
-- Summaries and alternative ways to understand material.
-- A companion dashboard with progress feedback and optional social encouragement.
+🏆 **Winner · UA Little Rock's 2025 AI and Mental Health Hackathon**
 
-These describe the team's hackathon design and demonstration. Until the original source is recovered, this repository cannot establish which proposed features were fully implemented.
+</div>
 
-## How we built the prototype
+![Focus Coach home screen with a task field, session duration, and available breaks](docs/images/focus-coach-home.jpg)
 
-The team used **Vercel v0** for rapid UI prototyping, **ChatGPT** for research and drafting, and **Gamma** for presentation design. The shared proposal also records **Claude** among the development tools. Team members split the work between research, development, and presentation.
+## Why Focus Coach?
 
-The proposal credits Anay Pandit, James Dempsey, Fahad Malallah, and Duron Huggins on the development side and records Anay presenting the tool demonstration. It also credits Aiden Behler, Elliot Estes, and Leelin Johnson in the wider project work. This was collaborative, AI-assisted development; individual component ownership and the final framework/build instructions will be documented when the code is recovered.
+Getting distracted is easy. Returning to the task should feel approachable.
 
-The design evolved through discussions of distraction signals and feedback. The team considered facial tracking, then moved toward browser behavior and positive reinforcement after feedback about privacy and false positives. Research suggestions and pitch claims are not substitutes for measured product outcomes.
+Focus Coach explores a simple loop: **choose one task → focus for a set time → get feedback → take a restorative break**. Built collaboratively during a hackathon, the prototype combines productivity tools with a supportive approach to attention and digital habits.
 
-## Recognition and references
+## Explore the prototype
 
-[UA Little Rock's reporting](https://ualr.edu/news/2025/08/07/mental-health-ai-hackathon/) identifies Focus Coach as the winning team and describes its real-time focus-support concept.
+| Experience | What you can explore |
+| --- | --- |
+| 🎯 Task-based sessions | Name your task and choose a 15, 25, 30, 45, or 60-minute focus session. |
+| ⏱️ Timer and feedback | Start and pause a countdown, view a focus score, and end a session. |
+| ☕ Wellness breaks | Take a five-minute break and see your remaining break allowance. |
+| 📝 Summarization panel | Paste text and view a returned summary within the focus workspace. |
+| ⚙️ Personalization | Explore Pomodoro and document modes, feature toggles, break limits, a distracting-site list, and appearance options. |
+| 🏆 Social encouragement | View a leaderboard with focus time, distraction time, streaks, and a weekly challenge. |
 
-[Team presentation](https://docs.google.com/presentation/d/1n8Fd8UMymu7sIbGSB8XO3PGjx_50vu_7MK9F-4hBxsM/edit) · [Shared proposal and development notes](https://docs.google.com/document/d/1XgHXCt-FxwE_5cGWA7PIuJWSSFOFkVK1IPsetM1QHsg/edit)
+The live interface and core session flow were reviewed on **November 12, 2026**. AI integrations, browser-wide blocking, and shared leaderboard data have not been verified. See the [demo guide](docs/DEMO_GUIDE.md) for observed behavior and prototype limits.
 
-The award amount is supported by the organizer's June 18, 2025 email, “Congrats Focus Coach! - Survey, Media, Photos & Checks.” The source-recovery status was checked November 10, 2026.
+## Try it in a minute
+
+1. Open the **[live demo](https://v0-new-project-emcec5fbckx.vercel.app/)**.
+2. Enter a task, such as “Prepare my hackathon demo,” and choose a duration.
+3. Select **Start Focus Session** to explore the timer and focus feedback.
+4. Open **Settings** or the **Leaderboard** to explore the rest of the experience.
+
+## Recognition and team
+
+Focus Coach won UA Little Rock's **2025 AI and Mental Health Hackathon**. [The university's coverage](https://ualr.edu/news/2025/08/07/mental-health-ai-hackathon/) describes the team's focus-support concept and its use of timers, summarization, and wellness breaks.
+
+The project record credits **Anay Pandit, James Dempsey, Fahad Malallah, Duron Huggins, Aiden Behler, Elliot Estes, and Leelin Johnson** across development, research, and presentation work. Anay contributed to development and presented the tool demonstration. The team used **Vercel v0**, **ChatGPT**, **Claude**, and **Gamma** during prototyping and presentation preparation.
+
+Read the [project notes](docs/PROJECT_NOTES.md) for development context, award details, and links to the team materials.
+
+## Repository status
+
+This repository is the project's **showcase and documentation home**. The deployed demo is available, but the original application and browser-extension source have not yet been added here. There is no local installation or build command to run from this repository today.
+
+| Resource | Location |
+| --- | --- |
+| Live prototype | [Open Focus Coach](https://v0-new-project-emcec5fbckx.vercel.app/) |
+| Walkthrough and verification notes | [docs/DEMO_GUIDE.md](docs/DEMO_GUIDE.md) |
+| Background, credits, and source handoff | [docs/PROJECT_NOTES.md](docs/PROJECT_NOTES.md) |
+| Screenshots | [docs/images/](docs/images/) |
+
+The next development milestone is to restore the original source and verify a reproducible local build. The [source handoff checklist](docs/PROJECT_NOTES.md#source-handoff-checklist) describes what is needed.
